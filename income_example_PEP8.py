@@ -14,3 +14,8 @@ income = (grossWages
           - studentLoanInterest)
 
 print(income)
+
+if income > 100000:
+    print("income is > %s" %income)
+else:
+    print("income is > {}, and that's ok" .format(income))
