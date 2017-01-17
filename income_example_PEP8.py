@@ -1,11 +1,11 @@
 import sys
 
-grossWages = sys.argv[1]
-taxableInterest = sys.argv[2]
-dividends = sys.argv[3]
-qualifiedDividends = sys.argv[4]
-iraDeduction = sys.argv[5]
-studentLoanInterest = sys.argv[6]
+grossWages = int(sys.argv[1])
+taxableInterest = int(sys.argv[2])
+dividends = int(sys.argv[3])
+qualifiedDividends = int(sys.argv[4])
+iraDeduction = int(sys.argv[5])
+studentLoanInterest = int(sys.argv[6])
 
 income = (grossWages
           + taxableInterest
